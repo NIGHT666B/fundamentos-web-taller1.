@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi espacio universitario</title>
+</head>
+<body>
+
+    <header>
+        <h1>Mi espacio universitario</h1>
+        <p>Un espacio para conocer mi proceso de formacion como futuro profesional.</p>
+    </header>
+
+    <nav>
+        <a href="#sobre-mi">Sobre mi</a> | 
+        <a href="#intereses">Intereses</a> | 
+        <a href="#multimedia">Multimedia</a> | 
+        <a href="#horario">Horario</a> | 
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <hr>
+
+    <main>
+
+        <section id="sobre-mi">
+            <h2>Sobre mi</h2>
+            <p>Mi nombre es <strong>Tu Nombre Completo</strong> y estudio <em>Ingenieria de Sistemas</em>.</p>
+            <p>Actualmente curso <mark>Fundamentos de Programacion Web</mark>.</p>
+            <p>Estoy aprendiendo <abbr title="HyperText Markup Language">HTML</abbr> de manera estricta.</p>
+            <p>Una expresion matematica puede escribirse como x<sup>2</sup>.</p>
+            <p>La formula quimica del agua es H<sub>2</sub>O.</p>
+            
+            <blockquote cite="https://w3.org">
+                <p>"El poder de la Web está en su universalidad. El acceso por parte de todos, independientemente de la discapacidad, es un aspecto esencial."</p>
+            </blockquote>
+            <p>Fuente: <cite>Tim Berners-Lee, Creador de la Web</cite></p>
+        </section>
+
+        <hr>
+
+        <section id="intereses">
+            <h2>Mis Intereses Académicos</h2>
+            <h3>Temas de interés</h3>
+            <ul>
+                <li>Desarrollo de software</li>
+                <li>Inteligencia artificial</li>
+                <li>Bases de datos relacionales</li>
+            </ul>
+
+            <h3>Tecnologías que deseo aprender</h3>
+            <ol>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>Python</li>
+            </ol>
+
+            <h3>Glosario de conceptos técnicos</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Lenguaje de marcado utilizado para estructurar las páginas web.</dd>
+                <dt>CSS</dt>
+                <dd>Lenguaje de diseño gráfico para dar estilos y colores a la estructura web.</dd>
+                <dt>JavaScript</dt>
+                <dd>Lenguaje de programación para dar interactividad y dinamismo a la web.</dd>
+            </dl>
+
+            <h3>Enlaces de aprendizaje útiles</h3>
+            <p>
+                <a href="https://mozilla.org" target="_blank">MDN Web Docs</a> | 
+                <a href="https://w3schools.com" target="_blank">W3Schools</a> | 
+                <a href="https://whatwg.org" target="_blank">Especificación Oficial HTML5</a>
+            </p>
+            <p>¿Tienes dudas? <a href="mailto:tu-correo@unicamacho.edu.co">Enviar correo al estudiante</a></p>
+        </section>
+
+        <hr>
+
+        <section id="multimedia">
+            <h2>Recursos Multimedia</h2>
+            
+            <figure>
+                <img src="multimedia/imagen1.jpg" alt="Logotipo de HTML5 con fondo oscuro">
+                <figcaption>Imagen 1: Representación visual del estándar HTML5.</figcaption>
+            </figure>
+
+            <figure>
+                <img src="multimedia/imagen2.jpg" alt="Código limpio de programación en un monitor">
+                <figcaption>Imagen 2: Ejemplo de estructura de código limpio.</figcaption>
+            </figure>
+
+            <h3>Audio Local</h3>
+            <audio controls>
+                <source src="multimedia/audio.mp3" type="audio/mpeg">
+                Su navegador no soporta audio HTML5.
+            </audio>
+
+            <h3>Video Local</h3>
+            <video controls width="500">
+                <source src="multimedia/video.mp4" type="video/mp4">
+                Su navegador no soporta video HTML5.
+            </video>
+
+            <h3>Recurso Externo Incorporado (IFrame)</h3>
+            <iframe width="500" height="315" src="https://youtube.com" title="Video de YouTube" allowfullscreen></iframe>
+        </section>
+
+        <hr>
+
+        <section id="horario">
+            <h2>Mi Horario Académico</h2>
+            <table border="1">
+                <caption>Horario de clases del semestre</caption>
+                <thead>
+                    <tr>
+                        <th>Asignatura</th>
+                        <th>Día</th>
+                        <th>Hora</th>
+                        <th>Modalidad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fundamentos Web</td>
+                        <td>Lunes</td>
+                        <td>6:00 p. m.</td>
+                        <td>Virtual</td>
+                    </tr>
+                    <tr>
+                        <td>Cálculo Integral</td>
+                        <td>Martes</td>
+                        <td>4:00 p. m.</td>
+                        <td>Presencial</td>
+                    </tr>
+                    <tr>
+                        <td>Estructuras de Datos</td>
+                        <td>Miércoles</td>
+                        <td>6:00 p. m.</td>
+                        <td>Presencial</td>
+                    </tr>
+                    <tr>
+                        <td>Física Electrónica</td>
+                        <td>Jueves</td>
+                        <td>2:00 p. m.</td>
+                        <td>Virtual</td>
+                    </tr>
+                    <tr>
+                        <td>Bases de Datos I</td>
+                        <td>Viernes</td>
+                        <td>6:00 p. m.</td>
+                        <td>Presencial</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="contacto">
+            <h2>Formulario de Contacto</h2>
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Información académica y de contacto</legend>
+                    
+                    <p>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo">
+                    </p>
+
+                    <p>
+                        <label for="correo">Correo:</label>
+                        <input type="email" id="correo" name="correo" required placeholder="usuario@correo.com">
+                    </p>
+
+                    <p>
+                        <label for="fecha">Fecha de Registro:</label>
+                        <input type="date" id="fecha" name="fecha">
+                    </p>
+
+                    <p>
+                        <label for="edad">Edad:</label>
+                        <input type="number" id="edad" name="edad" min="15" max="100">
+                    </p>
+
+                    <p>
+                        <label for="satisfaccion">Nivel de satisfacción con la carrera:</label>
+                        <input type="range" id="satisfaccion" name="satisfaccion" min="1" max="10">
+                    </p>
+
+                    <p>
+                        ¿Modalidad preferida?: <br>
+                        <input type="radio" id="mod-virtual" name="pref-modalidad" value="virtual">
+                        <label for="mod-virtual">Virtual</label><br>
+                        <input type="radio" id="mod-presencial" name="pref-modalidad" value="presencial">
+                        <label for="mod-presencial">Presencial</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="terminos" name="terminos" required>
+                        <label for="terminos">Acepto los términos de uso académico</label>
+                    </p>
+
+                    <p>
+                        <label for="semestre">Semestre:</label>
+                        <select id="semestre" name="semestre">
+                            <option value="">Seleccione</option>
+                            <option value="1">Primer semestre</option>
+                            <option value="2">Segundo semestre</option>
+                            <option value="3">Tercer semestre</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="comentario">Comentario:</label><br>
+                        <textarea id="comentario" name="comentario" rows="5" cols="40" placeholder="Escribe tus observaciones aquí..."></textarea>
+                    </p>
+                </fieldset>
+                
+                <p>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </p>
+            </form>
+        </section>
+
+        <hr>
+
+        <section id="adicionales">
+            <h2>Elementos Semánticos Adicionales y Progreso</h2>
+            <article>
+                <h3>Artículo: Avance del curso</h3>
+                <p>Estado de cumplimiento de las prácticas de desarrollo web de este semestre.</p>
+                <p>Progreso general del taller: <progress value="100" max="100">100 %</progress></p>
+                <p>Nivel de motivación del estudiante: <meter min="0" max="10" value="9">9 de 10</meter></p>
+            </article>
+
+            <aside>
+                <h4>Nota complementaria</h4>
+                <p>Para guardar los cambios en Visual Studio Code puedes presionar el comando rápido <kbd>Ctrl</kbd> + <kbd>S</kbd> en tu teclado.</p>
+            </aside>
+
+            <details>
+                <summary>¿Qué estoy aprendiendo en esta sección?</summary>
+                <p>Estoy aprendiendo a utilizar las etiquetas de progreso y medición nativas de HTML5, además de estructurar bloques de código ordenados.</p>
+            </details>
+
+            <p>Ejemplo de estructura básica en código fuente:</p>
